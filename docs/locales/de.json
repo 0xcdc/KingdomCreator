@@ -1,4 +1,5 @@
 {
+  "id": "de",
   "addon_description_format_2": "{one} & {two}",
   "addon_description_format_3": "{one}, {two} & {three}",
   "addon_description_format_4": "{one}, {two}, {three} & {four}",
@@ -55,7 +56,6 @@
   "sets_page_subtitle": "Empfohlene Königreiche / Kartensätze",
   "sets_page_description": "Diese Kartensätze wurden händisch zusammengestellt, um ein besonders unterhaltsames Spielerlebnis zu bieten und verschiedene Karten-Interaktionen und Strategien vorzustellen.",
   "settings_page_subtitle2": "Passen Sie Ihr Spielerlebnis durch Anpassen der Einstellungen für Königreichgröße, Add-Ons und einzelne Kartentypen an.",
-  "id": "de",
   "adventures": "Abenteuer",
   "alchemy": "Die Alchemisten",
   "allies": "Verbündete",

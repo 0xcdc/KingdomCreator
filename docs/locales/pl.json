@@ -1,4 +1,5 @@
 {
+  "id": "pl",
   "addon_description_format_2": "{one} & {two}",
   "addon_description_format_3": "{one}, {two} & {three}",
   "addon_description_format_4": "{one}, {two}, {three} & {four}",
@@ -151,7 +152,6 @@
   "Addons": "Dodatki",
   "Force Addons usage": "Wymuś użycie Dodatków",
   "cards_removed": "karta usunięta|karta usunięta|karty usunięte",
-  "id": "pl",
   "adventures": "W nieznane!",
   "alchemy": "Alchemy",
   "allies": "Allies",
