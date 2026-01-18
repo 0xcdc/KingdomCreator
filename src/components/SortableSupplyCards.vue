@@ -11,6 +11,11 @@
               @click.stop="handleSpecify(slotProps.item)">
               Specify
             </div>
+            <div v-if="!(isSpecialCard(slotProps.item))"
+              class="standard-button standard-button--is-primary standard-button--light-border"
+              @click.stop="handleGotoWiki(slotProps.item)">
+              Wiki
+            </div>
           </template>
           <!--<BaneCardCover v-if="isBane(slotProps.item)" />-->
           <BaneCardCover isType="Bane" v-if="isBaneCard(slotProps.item)" />
@@ -198,6 +203,9 @@ export default defineComponent({
     const handleSpecify = (supplyCard: SupplyCard) => {
       randomizerStore.UPDATE_SPECIFYING_REPLACEMENT_SUPPLY_CARD(supplyCard);
     }
+    const handleGotoWiki = (supplyCard: SupplyCard) => {
+      window.open(`https://wiki.dominionstrategy.com/index.php/${supplyCard.name}`);
+    }
     const handleSupplyCardFlippingToBack = (supplyCard: SupplyCard) => {
       numberOfSupplyCardsLoading += 1;
     }
@@ -378,6 +386,7 @@ export default defineComponent({
       isApproachingArmyCard,
       isTraitsCard,
       traitsTitle,
+      handleGotoWiki,
       handleSpecify
     }
   }
