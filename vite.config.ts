@@ -49,7 +49,7 @@ export default defineConfig( ({ mode}) => {
     }
     HandleLocaleGenerateAndMerge(ArgGenLocale, 'docs')
   }
-  let baseDir = './'
+  let baseDir = '/KingdomCreator/'
 
   return {
     appType: 'spa',
